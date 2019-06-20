@@ -10,28 +10,28 @@
     "serve": "serve dist -p 3000 -s"
   },
   "dependencies": {
-    "@reach/router": "^1.2.1",
-    "axios": "^0.18.0",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
+    "@reach/router": "1.2.1",
+    "axios": "0.18.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-static": "7.1.0",
     "react-static-plugin-reach-router": "latest",
     "react-static-plugin-sitemap": "latest",
     "react-static-plugin-source-filesystem": "latest",
     "react-static-plugin-styled-components": "latest",
     "react-static-plugin-typescript": "latest",
-    "styled-components": "^4.3.2"
+    "styled-components": "4.3.2"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/node": "^12.0.0",
-    "@types/reach__router": "^1.2.2",
-    "@types/react": "^16.8.2",
-    "@types/react-dom": "^16.8.0",
-    "@types/react-hot-loader": "^4.1.0",
-    "@types/styled-components": "^4.1.16",
-    "@types/webpack-env": "^1.13.6",
+    "@types/axios": "0.14.0",
+    "@types/node": "12.0.8",
+    "@types/reach__router": "1.2.4",
+    "@types/react": "16.8.21",
+    "@types/react-dom": "16.8.4",
+    "@types/react-hot-loader": "4.1.0",
+    "@types/styled-components": "4.1.16",
+    "@types/webpack-env": "1.13.9",
     "serve": "11.0.2",
-    "typescript": "^3.4.1"
+    "typescript": "3.5.2"
   }
 }
