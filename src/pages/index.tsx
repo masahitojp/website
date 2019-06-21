@@ -1,10 +1,10 @@
 import React from 'react'
-
 import { Base } from 'components/templates/Base'
+import { Title } from 'components/parts/Content'
 
 const HomePage: React.SFC = () => (
   <Base>
-    <h1>masahito.me</h1>
+    <Title>masahito.me</Title>
     <h2>Software</h2>
     <>
       <h4>
