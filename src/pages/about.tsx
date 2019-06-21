@@ -3,9 +3,20 @@ import { Base } from 'components/templates/Base'
 
 const AboutPage: React.SFC = () => (
   <Base>
-    <div>
-      <p>React Static is a progressive static site generator for React.</p>
-    </div>
+    <h2>Profile</h2>
+    <p>Software Engeneer, Web Developer</p>
+    <h2>Links</h2>
+    <ul>
+      <li>
+        <a
+          href="https://github.com/masahitojp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github
+        </a>
+      </li>
+    </ul>
   </Base>
 )
 export default AboutPage

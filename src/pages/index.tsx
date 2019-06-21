@@ -4,18 +4,20 @@ import { Base } from 'components/templates/Base'
 
 const HomePage: React.SFC = () => (
   <Base>
-    <h1>
-      Welcome to React-Static <br /> + TypeScript
-    </h1>
-    <p>
-      Learn
-      <a href="https://github.com/sw-yx/react-typescript-cheatsheet">
-        React + TypeScript
-      </a>
-    </p>
-    <p>
-      <a href="https://twitter.com/swyx">Report issues with this template</a>
-    </p>
+    <h1>masahito.me</h1>
+    <h2>Software</h2>
+    <>
+      <h4>
+        <a
+          href="https://github.com/masahitojp/botan-core"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          text image generator
+        </a>
+      </h4>
+      <p>tiny chat bot framework for Java SE 8.(like a Hubot)</p>
+    </>
   </Base>
 )
 export default HomePage
