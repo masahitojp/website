@@ -1,10 +1,15 @@
 import styled from 'styled-components'
 
 const Header = styled.header`
-  display: flex;
+  list-style: none;
+  margin: 0;
   position: fixed;
   top: 0;
-  margin: auto;
+  z-index: 99;
+  background: deepskyblue;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
 `
 
 export default Header

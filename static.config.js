@@ -1,3 +1,4 @@
+import React from 'react'
 import path from 'path'
 
 // Typescript support in static.config.js is not yet supported, but is coming in a future update!
@@ -16,4 +17,15 @@ export default {
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
   ],
+  Document: ({ Html, Head, Body, children }) => {
+    return (
+      <Html>
+        <Head>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
+        <Body>{children}</Body>
+      </Html>
+    )
+  },
 }
