@@ -1,7 +1,7 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
 import { Router } from '@reach/router'
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
 }
-`;
+`
 
 function App() {
   return (

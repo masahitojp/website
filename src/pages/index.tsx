@@ -3,7 +3,6 @@ import React from 'react'
 import { Base } from 'components/templates/Base'
 
 export default () => (
-
   <Base>
     <h1>
       Welcome to React-Static <br /> + TypeScript
@@ -17,6 +16,5 @@ export default () => (
     <p>
       <a href="https://twitter.com/swyx">Report issues with this template</a>
     </p>
-
   </Base>
 )

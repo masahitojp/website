@@ -4,22 +4,18 @@ import { Container } from 'components/parts/Container'
 import { Content } from 'components/parts/Content'
 import { Header, Nav, NavItem } from 'components/parts/Header'
 
-export const Base: React.StatelessComponent= ({
-  children,
-}) => (
+interface Props {
+  children: React.ReactNode
+}
+
+export const Base: React.SFC<Props> = ({ children }: Props) => (
   <Container>
     <Header>
-        <Nav>
-            <NavItem href="/" >
-            HOME
-            </NavItem>
-            <NavItem href="/about" >
-            ABOUT
-            </NavItem>
-        </Nav>
+      <Nav>
+        <NavItem href="/">HOME</NavItem>
+        <NavItem href="/about">ABOUT</NavItem>
+      </Nav>
     </Header>
-    <Content>
-    {children}
-    </Content>j
+    <Content>{children}</Content>
   </Container>
 )
