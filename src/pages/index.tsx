@@ -13,7 +13,7 @@ const HomePage: React.SFC = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          text image generator
+          botan
         </a>
       </h4>
       <p>tiny chat bot framework for Java SE 8.(like a Hubot)</p>
