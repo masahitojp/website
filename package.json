@@ -6,7 +6,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "bundle": "react-static bundle",
-    "pretest": "eslint --ignore-path .gitignore .",
+    "pretest": "eslint '**/*.tsx'",
     "export": "react-static export",
     "serve": "serve dist -p 3000 -s"
   },

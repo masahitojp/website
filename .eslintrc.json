@@ -26,5 +26,11 @@
       "allowExpressions": true,
       "allowTypedFunctionExpressions": true
     }]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.8"
+    }
   }
 }
