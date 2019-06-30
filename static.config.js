@@ -16,6 +16,7 @@ export default {
     require.resolve('react-static-plugin-styled-components'),
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
+
   ],
   Document: ({ Html, Head, Body, children }) => {
     return (

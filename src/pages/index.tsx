@@ -1,13 +1,14 @@
 import React from 'react'
 import { Base } from 'components/templates/Base'
-import { Title } from 'components/parts/Content'
+import Typography from '@material-ui/core/Typography'
 
 const HomePage: React.SFC = () => (
   <Base>
-    <Title>masahito.me</Title>
-    <h2>Software</h2>
+    <Typography component="h2" variant="h5" color="inherit" align="center">
+      Software
+    </Typography>
     <>
-      <h4>
+      <Typography component="h3" variant="h6" color="inherit" align="center">
         <a
           href="https://github.com/masahitojp/botan-core"
           target="_blank"
@@ -15,8 +16,10 @@ const HomePage: React.SFC = () => (
         >
           botan
         </a>
-      </h4>
-      <p>tiny chat bot framework for Java SE 8.(like a Hubot)</p>
+      </Typography>
+      <Typography variant="subtitle1" align="center" paragraph>
+        tiny chat bot framework for Java SE 8.(like a Hubot)
+      </Typography>
     </>
   </Base>
 )
