@@ -1,20 +1,10 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
-import { Router } from '@reach/router'
-import { createGlobalStyle } from 'styled-components'
-
-const GlobalStyle = createGlobalStyle`
-* {
-  box-sizing: border-box; 
-  margin: 0;
-  padding: 0;
-}
-`
+import { MemoryRouter as Router } from 'react-router'
 
 const App: React.SFC = () => {
   return (
     <Root>
-      <GlobalStyle />
       <React.Suspense fallback={<em>Loading...</em>}>
         <Router>
           <Routes path="*" />
