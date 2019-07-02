@@ -29,10 +29,10 @@ export const Header: React.SFC = () => {
           <Typography variant="h6" className={classes.title}>
             masahito.me
           </Typography>
-          <Button component={Link} to="/">
+          <Button color="inherit" component={Link} to="/">
             home
           </Button>
-          <Button component={Link} to="/about">
+          <Button color="inherit" component={Link} to="/about">
             about
           </Button>
         </Toolbar>
