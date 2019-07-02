@@ -1,5 +1,6 @@
 import * as React from 'react'
 
+import Box from '@material-ui/core/Box'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import { Header } from 'components/parts/Header'
@@ -13,17 +14,19 @@ export const Base: React.SFC<Props> = ({ children }: Props) => (
   <>
     <Container maxWidth="lg">
       <Header />
-      <Grid
-        container
-        direction="column"
-        justify="space-between"
-        alignItems="center"
-      >
-        {/* Main content */}
-        <Grid item xs={12} md={6}>
-          {children}
+      <Box m={4}>
+        <Grid
+          container
+          direction="column"
+          justify="space-between"
+          alignItems="center"
+        >
+          {/* Main content */}
+          <Grid item xs={12} sm={11} md={9} lg={6}>
+            {children}
+          </Grid>
         </Grid>
-      </Grid>
+      </Box>
     </Container>
     <Divider variant="middle" />
     <footer>
