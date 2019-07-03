@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography'
 
 const AboutPage: React.SFC = () => (
   <Base>
-    <Typography variant="h6" align="center" component="h2">
+    <Typography variant="h5" align="center" component="h2">
       Profile
     </Typography>
     <Typography
@@ -15,7 +15,7 @@ const AboutPage: React.SFC = () => (
     >
       Software Engeneer, Web Developer
     </Typography>
-    <Typography variant="h6" align="center" component="h2">
+    <Typography variant="h5" align="center" component="h2">
       Links
     </Typography>
     <Typography
