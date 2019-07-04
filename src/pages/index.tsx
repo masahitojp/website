@@ -1,6 +1,7 @@
 import React from 'react'
 import { Base } from 'components/templates/Base'
 import Typography from '@material-ui/core/Typography'
+import { FormattedMessage } from 'react-intl'
 
 const HomePage: React.SFC = () => (
   <Base>
@@ -20,6 +21,7 @@ const HomePage: React.SFC = () => (
       <Typography variant="subtitle1" align="center" paragraph>
         tiny chat bot framework for Java SE 8.(like a Hubot)
       </Typography>
+      <FormattedMessage id="hello" />
     </>
   </Base>
 )
