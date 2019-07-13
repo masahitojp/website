@@ -7,15 +7,8 @@ export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
   plugins: [
     'react-static-plugin-typescript',
-    [
-      require.resolve('react-static-plugin-source-filesystem'),
-      {
-        location: path.resolve('./src/pages'),
-      },
-    ],
-    require.resolve('react-static-plugin-reach-router'),
-    require.resolve('react-static-plugin-sitemap'),
-
+    'react-static-plugin-reach-router',
+    'react-static-plugin-sitemap',
   ],
   Document: ({ Html, Head, Body, children }) => {
     return (
@@ -28,4 +21,19 @@ export default {
       </Html>
     )
   },
+  getRoutes: async ({ dev }) => [
+    {
+      path: 'about',
+      template: 'src/pages/about',
+    },
+    {
+      path: '/',
+      template: 'src/pages/index',
+    },
+    // A 404 component
+    {
+      path: '404',
+      template: 'src/pages/404',
+    },
+  ]
 }
