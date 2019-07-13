@@ -1,4 +1,4 @@
-const ja_JP = {
+const jaJP = {
   hello: 'こんにちわ',
 }
-export default ja_JP
+export default jaJP
