@@ -16,7 +16,7 @@
     "@reach/router": "1.2.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-static": "7.1.0",
+    "react-static": "7.2.3",
     "react-static-plugin-reach-router": "latest",
     "react-static-plugin-sitemap": "latest",
     "react-static-plugin-source-filesystem": "latest",
