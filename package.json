@@ -38,7 +38,7 @@
     "eslint-plugin-react": "7.14.3",
     "prettier": "1.18.2",
     "serve": "11.2.0",
-    "typescript": "3.6.2"
+    "typescript": "3.7.2"
   },
   "prettier": {
     "semi": false,
