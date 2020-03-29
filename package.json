@@ -11,8 +11,8 @@
     "serve": "serve dist -p 3000 -s"
   },
   "dependencies": {
-    "@material-ui/core": "4.4.0",
-    "@material-ui/styles": "4.3.3",
+    "@material-ui/core": "4.9.8",
+    "@material-ui/styles": "4.9.6",
     "@reach/router": "1.2.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -37,6 +37,7 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-react": "7.14.3",
     "prettier": "1.19.1",
+    "react-hot-loader": "4.12.20",
     "serve": "11.2.0",
     "typescript": "3.7.2"
   },
