@@ -38,7 +38,7 @@
     "eslint-plugin-react": "7.20.0",
     "prettier": "2.0.5",
     "react-hot-loader": "4.12.21",
-    "serve": "11.3.1",
+    "serve": "11.3.2",
     "typescript": "3.9.5"
   },
   "prettier": {
