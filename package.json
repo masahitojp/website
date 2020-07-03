@@ -39,7 +39,7 @@
     "prettier": "2.0.5",
     "react-hot-loader": "4.12.21",
     "serve": "11.3.2",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   },
   "prettier": {
     "semi": false,
