@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 
@@ -16,7 +16,7 @@ if (typeof document !== 'undefined') {
     ? ReactDOM.hydrate
     : ReactDOM.render
 
-  const render = (Comp: Function): void => {
+  const render = (Comp: FunctionComponent): void => {
     renderMethod(
       <AppContainer>
         <Comp />
