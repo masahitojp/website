@@ -35,7 +35,7 @@
     "eslint": "7.17.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react": "7.37.1",
     "prettier": "2.2.1",
     "react-hot-loader": "4.12.21",
     "serve": "11.3.2",
